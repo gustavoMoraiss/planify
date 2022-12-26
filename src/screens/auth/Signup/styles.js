@@ -4,36 +4,24 @@ import colors from '../../../constants/colors';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginHorizontal: 24,
   },
-  image: {
-    width: '100%',
-    flex: 1,
+  footerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 36,
   },
-  content: {
-    padding: 46,
-    paddingTop: 0,
-    backgroundColor: colors.white,
-  },
-  title: {
-    color: colors.black,
-    textAlign: 'center',
-    fontWeight: 'bold',
-    fontSize: 22,
-  },
-  subtitle: {
+  footerText: {
     color: colors.grey,
-    textAlign: 'center',
     fontSize: 15,
-    marginVertical: 16,
+    textAlign: 'center',
   },
-  footer: {
-    position: 'absolute',
-    bottom: 0,
-    height: 50,
-    width: '100%',
-    backgroundColor: colors.white,
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
+  footerLink: {
+    color: colors.purple,
+    fontSize: 15,
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
 export default styles;
