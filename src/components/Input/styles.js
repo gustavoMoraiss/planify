@@ -4,7 +4,7 @@ import colors from '../../constants/colors';
 const styles = StyleSheet.create({
   input: {
     backgroundColor: colors.lightGrey,
-    color: colors.grey,
+    color: colors.black,
     paddingHorizontal: 24,
     paddingVertical: 13,
     borderRadius: 10,

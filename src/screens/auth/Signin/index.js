@@ -13,8 +13,8 @@ const Signin = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <Title>Welcome back!</Title>
-      <Input placeholder={'E-mail'} />
-      <Input placeholder={'Password'} />
+      <Input placeholder={'E-mail'} keyboardType="email-address" />
+      <Input placeholder={'Password'} secureTextEntry />
       <Button>Login</Button>
       <View style={styles.footerContainer}>
         <Text style={styles.footerText}>Not registered? </Text>

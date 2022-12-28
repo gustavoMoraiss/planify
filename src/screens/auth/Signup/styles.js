@@ -23,5 +23,18 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 16,
+  },
+  agreeText: {
+    color: colors.grey,
+    fontSize: 12,
+    marginLeft: 8,
+  },
+  textLink: {
+    textDecorationLine: 'underline',
+  },
 });
 export default styles;
